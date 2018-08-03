@@ -1,0 +1,8 @@
+#! /bin/bash
+
+helm install \
+    --name weave \
+    --namespace weave \
+    --version 1.6.5 \
+    -f values.yaml \
+    stable/weave-scope
