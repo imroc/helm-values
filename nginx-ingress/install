@@ -1,0 +1,2 @@
+#! /bin/bash
+helm install -f values.yaml --name nginx-ingress --namespace kube-system stable/nginx-ingress

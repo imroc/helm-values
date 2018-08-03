@@ -1,0 +1,2 @@
+#! /bin/bash
+helm upgrade -f values.yaml nginx-ingress stable/nginx-ingress
