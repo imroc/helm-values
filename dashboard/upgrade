@@ -1,0 +1,3 @@
+#! /bin/bash
+
+helm upgrade dashboard stable/kubernetes-dashboard -f values.yaml

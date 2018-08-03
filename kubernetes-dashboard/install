@@ -1,0 +1,3 @@
+#! /bin/bash
+
+helm install --name dashboard --namespace dashboard -f values.yaml stable/kubernetes-dashboard
