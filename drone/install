@@ -1,0 +1,7 @@
+#! /bin/bash
+
+helm install \
+    --name drone \
+    --namespace drone \
+    -f values.yaml \
+    stable/drone
