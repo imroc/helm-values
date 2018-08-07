@@ -1,0 +1,7 @@
+#! /bin/bash
+
+helm install \
+    --name gitlab-ee \
+    --namespace gitlab-ee \
+    -f values.yaml \
+    gitlab/gitlab
