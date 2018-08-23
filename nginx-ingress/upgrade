@@ -1,2 +1,5 @@
 #! /bin/bash
-helm upgrade -f values.yaml nginx-ingress stable/nginx-ingress
+
+VERSION=${1:-"0.25.1"}
+
+helm upgrade -f values-${VERSION}.yaml nginx-ingress stable/nginx-ingress
